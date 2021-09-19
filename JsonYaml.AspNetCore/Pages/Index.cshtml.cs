@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using JsonToYaml;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using System;
@@ -12,14 +13,28 @@ namespace JsonYaml.AspNetCore.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
+        public string YamlCode { get; set; }
+
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
+            var json = @"{
+                'Name':'Omid',
+                'Age':29,
+                'Project':{
+                        'ProjectName':'JsonToYaml Nuget Package',
+                        'ProjectDescription':'This a library for converting json to yaml in .NET',
+                        },
+                'Languages':['C#','Binary']
+                }";
 
+            YamlCode = JsonToYamlConvert.ConvertJsonToYaml(json);
+
+            return Page();
         }
     }
 }
