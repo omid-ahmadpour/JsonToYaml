@@ -4,7 +4,33 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">@Model.YamlCode</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+    <div class="col-md-6">
+        <div class="bg-dark text-light">
+            <h2 class="text-center">JSON</h2>
+        </div>
+        <div class="position-relative" style="height: 100vh;">
+
+            <div id="json">
+                function foo(items) {
+                var x = "All this is syntax highlighted";
+                return x;
+                }
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="bg-dark text-light">
+            <h2 class="text-center">YAML</h2>
+        </div>
+        <div class="position-relative" style="height: 100vh;">
+
+            <div id="yaml">
+                function foo(items) {
+                var x = "All this is syntax highlighted";
+                return x;
+                }
+            </div>
+        </div>
+    </div>
 </div>
