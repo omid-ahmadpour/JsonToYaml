@@ -7,7 +7,7 @@ namespace ConsoleSample
     {
         static void Main(string[] args)
         {
-            //for replacing appsetting json, replace "" with '.
+            //for converting appsetting json, replace "" with '.
 
             var json = @"{
                 'Name':'Omid',
