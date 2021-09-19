@@ -7,9 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonToYaml", "JsonToYaml\Js
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleSample", "ConsoleSample\ConsoleSample.csproj", "{0C9E49E5-B7D4-4D95-97E1-B247D7A6640A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonToYaml.AspNetCore", "JsonToYaml.AspNetCore\JsonToYaml.AspNetCore.csproj", "{AE7DE8F9-B879-4EB5-A250-7C4477C3C61A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonYaml.AspNetCore", "JsonYaml.AspNetCore\JsonYaml.AspNetCore.csproj", "{9E8F018F-E4EB-4A0F-9EB4-91A84DE750E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonYaml.AspNetCore", "JsonYaml.AspNetCore\JsonYaml.AspNetCore.csproj", "{9E8F018F-E4EB-4A0F-9EB4-91A84DE750E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +23,6 @@ Global
 		{0C9E49E5-B7D4-4D95-97E1-B247D7A6640A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C9E49E5-B7D4-4D95-97E1-B247D7A6640A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C9E49E5-B7D4-4D95-97E1-B247D7A6640A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AE7DE8F9-B879-4EB5-A250-7C4477C3C61A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE7DE8F9-B879-4EB5-A250-7C4477C3C61A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE7DE8F9-B879-4EB5-A250-7C4477C3C61A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE7DE8F9-B879-4EB5-A250-7C4477C3C61A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E8F018F-E4EB-4A0F-9EB4-91A84DE750E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E8F018F-E4EB-4A0F-9EB4-91A84DE750E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E8F018F-E4EB-4A0F-9EB4-91A84DE750E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
